@@ -461,4 +461,7 @@ Base.@pure function columntype(names::Tuple{Vararg{Symbol}}, ::Type{types}, name
     return Union{}
 end
 
+# POC
+include("binarytraits.jl")
+
 end # module
